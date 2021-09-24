@@ -1,0 +1,20 @@
+.App{
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  margin: 20px auto;
+}
+.TodoItem{
+  display: flex;
+  border-bottom: 1px solid #999;
+  padding: 0 10px
+}
+
+.TodoItem p{
+  padding-left: 20px;
+}
+
+.TodoItem-done{
+  opacity: 0.3;
+  text-decoration: line-through;
+}

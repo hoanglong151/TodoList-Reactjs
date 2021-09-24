@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.input_todoList{
+  display: flex;
+  border-bottom: 1px solid #999;
+  padding: 0 10px;
+}
+.input_todoList input{
+  border: none;
+  outline: none;
+  padding: 4px;
+  width: 100%;
+  margin: 4px 8px;
+  font-size: 20px;
+}
+
+.area_Info button{
+  border: none;
+  padding: 4px;
+  margin: 4px
+}
+
+.area_Info button:hover{
+  background-color: rgb(240, 176, 176)
+}
+
+.btnSelect button.active{
+  border: 1px solid red;
+  border-radius: 10px;
+}
